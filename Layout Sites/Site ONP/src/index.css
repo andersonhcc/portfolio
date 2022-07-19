@@ -1,0 +1,16 @@
+body {
+
+  padding: 0;
+  margin: 0;
+  background-image: url('../image/Fundo.png');
+  background-position: 100%;
+  background-size: contain;
+  
+  
+}
+
+.Todo{
+
+  margin-left: 115px;
+}
+

@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.corpo--do--site{
+
+  background: #202124;
+
+}
+
+
+.fazer--login {
+
+font-size: 15px;
+font-family: 'Roboto', sans-serif;
+float: right;
+margin-right: 10;
+color: white;
+
+
+}
+
+.faça-uma-pesquisa {
+
+font-family: 'Roboto', sans-serif;
+color: white;
+margin-top: -3px;
+font-size:15px;
+
+}
+
+.botao--de--pesquisa {
+background: #202124;
+padding: 13px;
+width: 100%;
+max-width: 700px;
+outline: none !important;
+border-radius: 15px;
+border: 1px solid gray;
+font-family: 'Roboto', sans-serif;
+
+}
+
+.botoes {
+  font-family: 'Roboto', sans-serif;
+  outline: none !important;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  background: #303134;
+  color: white;
+}
+
+
+.texto--link {
+
+font-family: 'Roboto', sans-serif;
+font-size: 16px;
+color: #BDC1A7
+}
+
+.botoes:hover {
+  border: 1px solid gray;
+}
+
+.Brasil {
+
+background: #171717;
+color: white;
+padding: 15px;
+font-size: 17px;
+max-width: 100%;
+font-family: 'Roboto', sans-serif;
+
+
+}
+.rodape1 {
+
+  background: #171717;
+  color: white;
+  font-size: 17px;
+  max-width: 100%;
+  margin-top: -17px;
+  border-top: 1px solid #635e5e;
+  padding-top: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 25px;  
+  font-family: 'Roboto', sans-serif;
+  height: 10px;
+
+}
+
+.rodape2 {
+    float: right;
+
+}
+
+.rodape3 {
+float: left;
+  
+}
+
+.link--rodape {
+  
+ text-decoration: none;
+ color: grey;
+ margin-right: 15px;
+
+}
+
+.link--rodape:hover{
+
+ text-decoration: underline;
+
+
+
+}
+
+
+.link--anderson {
+
+color:grey;
+
+}

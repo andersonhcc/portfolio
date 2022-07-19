@@ -1,0 +1,411 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+*{
+
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+
+.topo {
+
+width: 98%;
+padding: 12px 20px;
+
+
+}
+
+
+.topo--left{
+
+    float: left;
+    margin-left: -15px;
+
+}
+
+.icone--left{
+
+    float: left;
+    margin-top: -3px;
+    margin-right: 2px;
+    margin-left: 5px;
+    
+    
+
+}
+
+
+.image--left{
+    
+    width: 100%;
+    max-width: 90px;
+    float: right;
+    margin-top: -5px;
+    margin-left: 10px;
+
+}
+
+
+.search--center{
+    margin-left: 150px;
+    width: 100%;
+    max-width: 600px;
+    outline-color: blue;
+    padding: 5px 10px;
+    float: left;
+    margin-top: -8px;
+    
+
+}
+
+.button--center {
+    padding: 6px 20px;
+    float: left;
+    margin-top: -8px;
+    color: grey;
+    cursor: pointer;
+  
+}
+
+
+.microfone--top {
+    
+    float: left;
+    color: black;
+    font-size: 20px;
+    margin-top: -5px;
+    margin-left: 20px;
+
+}
+
+
+.icone1--top {
+
+    float: left;
+    color: black;
+    margin-left: 120px;
+    font-size: 20px;
+    margin-top: -5px;
+
+
+}
+
+
+.icone2--top{
+
+
+    float:left;
+    color:black;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: -5px;
+
+
+
+}
+
+
+.button--top {
+
+    background: white;
+    border:1px solid blue;
+    padding: 7px 15px;
+    cursor: pointer;
+    margin-top: -10px;
+    float: left;
+    font-weight: bold;
+    color: blue;
+    margin-left: 15px;
+    
+    
+
+}
+
+
+.icon--user {
+
+    margin-right: 5px;
+    color: blue;
+}
+
+.div--lateral {
+    float: left;
+    width: 100%;
+    max-width: 273px;
+    height: 600px;
+}
+
+
+.item--lateral--active{
+    background: #E6E6E6;
+    color:black;
+    padding: 10px 12px;   
+    font-size: 15px;
+    margin-top: 14px;
+    
+
+}
+
+.icon--home{
+    color: red;
+    margin-right: 15px;
+
+}
+
+.item--lateral{
+    background: white;
+    color:black;
+    padding: 10px 12px;   
+   font-size: 15px;
+    cursor: pointer;
+
+}
+
+
+.icone--lateral{
+    color: grey;
+    margin-right: 15px;
+}
+
+
+.item--lateral--active:hover {
+
+    background: rgb(216, 213, 213);
+}
+
+.item--lateral:hover{
+
+    background: rgb(241, 240, 240);
+}
+
+.separador{
+    height: 1px;
+    background: rgb(228, 228, 228);
+    margin-top: 15px;
+    margin-bottom: 10px;
+
+}
+
+
+.faça--login{
+
+    font-size: 13px;
+    text-align: left;
+    width: 100%;
+    margin-bottom: 20px;
+    max-width: 200px;
+    
+}
+
+
+.button--2{
+    
+    background: white;
+    border:1px solid blue;
+    padding: 7px 15px;
+    cursor: pointer;
+    margin-top: -12px;
+    float: left;
+    font-weight: bold;
+    color: blue;
+    margin-left: 40px;
+
+}
+
+.melhor--ytb {
+
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+    max-width: 200px;
+    margin-left: 15px;
+    color: grey;
+    font-weight: 700;
+}
+
+
+.meio {
+    margin-top: -6px;
+    background: white;
+    float: right;
+    height: 1000px;
+    width: 100%;
+    max-width: 1050px ;
+
+
+}
+
+.button---active{
+    padding: 5px 10px;
+    background: rgb(87, 85, 85);
+    border-radius: 17px;
+    cursor: pointer;
+    color: white;
+    border: none;
+    margin-top: 3px;
+    margin-left: 5px;
+    font-size: 13px;
+}
+
+
+.button---normal {
+    border: 1px solid rgb(212, 212, 212);
+    padding: 5px 10px;
+    background: white;
+    border-radius: 17px;
+    cursor: pointer;
+    color: black;
+    margin-top: 3px;
+    margin-left: 5px;
+    font-size: 13px;
+}
+
+
+.separador--meio {
+    height: 1px;
+    background: rgb(228, 228, 228);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: -12px;
+}
+
+
+.fundo--meio{
+   
+    background-image: url("../images/fundodiv2.jpeg");
+    width: 100%;
+    height: 225px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+.image--premium{
+    width: 100%;
+    max-width: 300px;
+    padding: 25px 50px;
+    margin-left: -30px;
+   
+}
+
+.aproveite--meio{
+
+    font-size: 20px;
+    margin-left: 19px;
+    margin-top: -8px;
+
+}
+
+.baixe--agora{
+
+    font-size: 15px;
+    border: 2px solid blue;
+    color: blue;
+    cursor: pointer;
+    margin-left: 19px;
+    background: transparent;
+    padding: 5px 10px;
+    margin-top: 18px;
+    font-weight: 600;
+}
+
+.icone--x{
+
+    float: right;
+    color: grey;
+    padding: 5px 10px;
+    margin-top: 2px;
+    cursor: pointer;
+}
+
+.videos{
+
+    background: white;
+    height: 400px;
+    width: 100%;
+    padding: 10px 10px;
+
+}
+
+.item-videos{
+    
+    height: 240px;
+    width: 100%;
+    max-width: 243px;
+    float: left;
+    margin-left: 15px;
+}
+
+
+.thumb{
+
+    width: 100%;
+}
+
+.time{
+
+    background: rgb(17, 17, 17);
+    font-size: 10px;
+    padding: 5px 6px;
+    color: white;
+    border-radius: 2px;
+    position: absolute;
+    margin-top: 110px;
+    margin-left: -38px;
+}
+
+
+.icone--video{
+
+    border-radius: 60%;
+    max-width: 50px;
+    width: 100%;
+    margin-top: 3px;
+
+}
+
+
+.texto--video{
+    font-size: 12px;
+    color: black;
+    text-align: left;
+    margin-top: -40px;
+    position: absolute;
+    margin-left: 49px;
+    width: 100%;
+    max-width: 250px;
+
+
+
+}
+
+.visu--video {
+   
+   
+    font-size: 12px;
+    color: grey;
+    text-align: left;
+    position: absolute;
+    margin-left: 49px;
+    width: 100%;
+    max-width: 250px;
+    margin-top: -5px;
+
+}
+
+
+.nome--canal{
+
+    font-size: 15px;
+    color: black;
+    text-align: left;
+    position: absolute;
+    margin-left: 49px;
+    width: 100%;
+    max-width: 250px;
+
+
+}

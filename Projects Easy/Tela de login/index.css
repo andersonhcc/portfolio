@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+body * {
+    box-sizing: border-box;
+    
+
+}
+
+.principal {
+
+    width: 100vw;
+    height: 100vh;
+    background: #050505;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-1{
+
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;   
+}
+
+.login-1 > h1 {
+
+    color: #fa5b46;
+    font-size: 3vw;
+}
+
+
+.login-2{
+    
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+
+}
+
+.plataform{
+
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    padding: 20px 25px;
+    background: #101010;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+    margin-top: -200px;
+    height: 55vh;
+}
+
+.plataform > h1 {
+
+    color: #FF725E;
+    font-weight: 800;
+    margin: 0;
+    font-size: 3vh;
+
+}
+
+.plataform1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 5px 0px;
+    width: 100%;
+
+}
+
+.plataform1  > input{
+        width: 100%;
+        border: none;
+        padding: 15px;
+        border-radius: 20px;
+        background: #1d1c1c;
+        font-size: 12pt;
+        box-shadow: 0px 10px 40px #16151556;
+        outline: none;
+        box-sizing: border-box;
+        color: #f0ffffde;
+
+}
+
+.plataform1 > label {
+
+    color: #f0ffffde;
+    margin-bottom: 10px;
+
+
+}
+
+.plataform1 > input::placeholder{
+
+    color: #f0ffff94;
+
+}
+
+.button-login {
+
+    width: 100%;
+    padding: 16px 0px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    margin-top: 25px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #2b134b;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #c54535;
+    background-color: #FF725E
+}
+
+.image{
+    width: 35vw;
+
+}
+
+@media only screen and (max-width:950px) {
+
+    .plataform{
+        width: 85%;
+
+    }
+
+}
+
+@media only screen and (max-width:650px) {
+
+    .principal{
+        flex-direction: column;
+
+    }
+    .login-1 > h1 {
+        display:none
+
+    }
+
+.login-1 {
+    width: 100%;
+    height: auto;
+}
+
+.login-2{
+    width: 100%;
+    height: auto;
+}
+     
+.login-1 > img {
+    
+    width: 80vw;
+
+}
+
+}
+
+.campo{
+
+    color: #f0ffffde;
+    flex-direction: row;
+    display:flex;
+    font-size:14px;
+
+
+
+}
+
+.check {
+    margin-top: 15px;
+
+}
+
+.esqueci {
+
+    display:flex;
+    justify-content: end;
+    width: 220px;
+    text-decoration: underline;
+    cursor: pointer;
+
+
+}
+
+.final{
+    display:flex;
+    justify-content: center;
+    width: 100%;
+    
+
+}
+
+.icone{
+    color: white;
+    width: 10px;
+    height: 20px;
+
+}
+
+.plataform2{
+ 
+    margin-top: 420px;
+    margin-left: -380px;
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #101010;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+    height: 35vh;
+
+
+
+}
+
+.button-login1 {
+
+    width: 80%;
+    padding: 12px 0px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    margin-top: 15px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #2b134b;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #c54535;
+    background-color: #FF725E
+}
+

@@ -1,0 +1,73 @@
+.todos {
+
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    justify-content: center;
+    margin-left: 250px;
+    margin-top: 50px;
+
+
+}
+
+
+
+
+.objetoss {
+
+    position: relative;
+    background-image: linear-gradient(180deg,#08bdeb,#0bb8e4,#07bce9,#0197bd);
+    color: #fff;
+    font-family: poppins,sans-serif;
+    font-weight: 700;
+    border-radius: 3px; 
+    max-width: 580px;
+    padding: 12px!important;
+    height: 40px;
+    margin-top: 10px;
+    z-index: 99;
+    
+
+
+
+
+
+}
+
+
+
+.container {
+    font-family: 'Poppins';
+    color: #fff;
+    font-weight: 400;
+    background: #1c265c;
+    border: 2px solid #0684a3;
+    max-width: 600px;
+    height: 170px;
+    transform: translateY(-80%) scaleY(0);
+    transition: 1s;
+    position: relative;
+
+}
+
+
+.objetoss:hover ~ .container{
+
+    transform: translateY(0) scaleY(1);
+
+
+}
+
+
+.active {
+    transform: translateY(0) scale(1);
+
+
+}
+
+.remove{
+
+    display: block;
+    font-size: 400px;
+}
+

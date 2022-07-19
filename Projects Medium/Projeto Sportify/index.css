@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+.background {
+
+    display: flex;
+    background-image: url('./images/abstract-background-futuristic-pedestal-for-product-presentation.jpg');
+
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #eee;
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;}
+.img1 {
+
+    height: 320px;
+    width: 320px;
+    border-radius: 10px;
+}
+
+.autoria {
+    width: 700px;
+    
+}
+
+h2 {
+    margin-bottom: 5px;
+    font-size: 30px;
+
+}
+
+.duracao {
+    
+    width: 700px;
+    margin-top: 20px;
+}
+
+.play {
+    width: 700px;
+    height: 6px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+
+}
+.testandoprogress {
+    height: 6px;
+    width: 0%;
+    background-color: #ccc;
+    display: flex;
+
+}
+
+
+
+.tempo {
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    
+}
+
+.ponto {
+
+    width: 20px;
+    height: 20px;
+    background-color: #ccc;
+    border-radius: 50%;
+    justify-content: space-around;
+}
+
+.reprodutor {
+   
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around ; 
+
+}
+
+
+.botao-play, .botao-pause {
+
+    font-size: 50px;
+    cursor: pointer;
+
+}
+
+.setas{
+    font-size: 40px;
+    cursor: pointer;
+
+}
+
+.botao-pause {
+    display: none;
+}
+
+.img1:hover{
+    
+    border: 2px solid #f75353;
+    padding:0;
+    display: inline-block;
+    cursor: pointer;
+
+}
+
+.h2:hover{
+
+    color:#f75353;
+    cursor: pointer;
+
+
+}
+

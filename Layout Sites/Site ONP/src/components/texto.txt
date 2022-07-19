@@ -1,0 +1,74 @@
+var testando =  elemento?.lastElementChild;
+     testando?.classList.add('fidelidade2');
+
+
+
+
+      <div id="08" className="hilde"> Não exigimos fidelidade. Ao adquirir nossa assinatura no modelo de mensalidade, você pode cancelar quando quiser, sem que seja necessário continuar por mais de um mês.
+      </div>
+
+
+
+
+
+
+
+      .todos {
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    width: 1000px;
+
+
+}
+
+.todos1{
+
+    background-image: linear-gradient(180deg,#08bdeb,#0bb8e4,#07bce9,#0197bd);
+    transition: all 1s ease;
+    color: #fff;
+    font-family: poppins,sans-serif;
+    font-weight: 700;
+    border-radius: 5px; 
+    max-width: 600px;
+    padding: 15px!important;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  
+
+    
+
+}
+
+.fidelidade {
+    width: 600px;
+    cursor: pointer!important;
+    transition: all 1s ease;
+    display: flex;
+    justify-content:flex-start;
+    cursor: pointer;
+
+ 
+
+
+   
+  
+}
+
+
+.fidelidade2 {
+    margin-top: 10px;
+    width: 500px;
+    height: 180px;
+    background: #1c265c;
+    border: 2px solid #0684a3;
+    padding: 18px;
+
+   
+}
+ 

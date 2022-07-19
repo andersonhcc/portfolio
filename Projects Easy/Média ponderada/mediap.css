@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.corpo{
+
+    background: rgb(88, 106, 122);
+}
+
+.topo {
+
+
+    color:white ;
+
+
+}
+
+.campo1{
+
+    border-radius: 40px;
+ 
+}
+
+.campo2{
+
+    border-radius: 40px;
+ 
+}
+
+.calcular{
+
+border-radius: 40px;
+background: white;
+font-family: sans-serif;
+padding:10px;
+cursor: pointer;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+}
+
+
+.calcular:hover{
+
+background: rgb(231, 229, 229);
+}
+
+
+.suanota{
+    color: white;
+    text-decoration: underline;
+
+}

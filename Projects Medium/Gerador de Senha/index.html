@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de senha 2022!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    
+    <body>
+        
+        <center> <h1 class="texto_gerador"> Gerador de Senha</h1> </center>
+        <br> <br> <br> <br>   <br> 
+
+        <main class="main">
+            <span>Tamanho <span id="valor"></span>caracteres</span>
+            <input id="slider" class="slider" type="range" min="5" max="30" value="10"/> 
+        
+            <button id="button" class="button-cta" onclick="GerarSenha()">Gerar senha</button>
+
+        </main>
+
+        <div id="container-password" class="container-password hide" onclick="CopiarSenha()"> 
+            <span class="title"> A senha gerada é: </span>
+            <span id="password" class="password"> SAJSLAJSJS </span>
+            <span class="senha"> Clique na senha para copiar</span>
+
+        </div>
+
+
+    </body>
+
+
+<script src="./java_script.js"> </script>
+</html>
